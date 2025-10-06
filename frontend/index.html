@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ScienceHub</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // sample fallback data if backend isn't available
+      window.__SAMPLE_ARTICLES = [
+        {id:1,title:"Why light can't escape a black hole",topic:"Astronomy",excerpt:"Event horizons and gravity wells in plain language.",content:"<h3>Why light can't escape a black hole</h3><p>Black holes curve space-time so steeply that all paths lead inward.</p>"},
+        {id:2,title:"Intro to Quantum Superposition",topic:"Physics",excerpt:"What superposition means.",content:"<h3>Quantum superposition</h3><p>Superposition means ...</p>"}
+      ];
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

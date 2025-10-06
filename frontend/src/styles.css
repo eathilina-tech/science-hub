@@ -1,0 +1,4 @@
+/* basic styles (Tailwind recommended) */
+:root{--bg:#071024}
+body{font-family:Inter,system-ui,Arial;background:var(--bg);color:#e6eef6;margin:0}
+.prose{line-height:1.6}
